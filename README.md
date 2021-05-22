@@ -7,7 +7,7 @@ The Internet Server Plugin is intended to be used as a dependency for other plug
 
 ```C#
     [BepInPlugin(Guid, "My Plugin That Uses The Internet Server Plugin", Version)]
-    **[BepInDependency(TaleSpireUnofficalPlugins.InternetServerPlugin.Guid)]**
+    [BepInDependency(TaleSpireUnofficalPlugins.InternetServerPlugin.Guid)]
     public class MyCoolPlugin : BaseUnityPlugin
     {
         private const string Guid = "org.demo.plugins.mycooldemo";
